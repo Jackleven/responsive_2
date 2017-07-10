@@ -1,0 +1,70 @@
+body, nav, header, section, article, div{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+main section{
+    width: 1200px;
+    margin: 0 auto;
+    background: grey;
+    
+    
+}
+
+main section div{
+    height: 300px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    background: green;
+    float: left;
+  
+}
+
+section div:nth-child(2n){
+    background: blue;
+    
+}
+
+body{
+    background-color: pink;
+    
+    
+}
+
+header{
+    width: 320px;
+    height: 400px;
+    background: darkorange;
+    margin: 0 auto;
+    
+}
+
+footer{
+    width: 320px;
+    height: 200px;
+    background: black;
+    margin: 0 auto;
+    
+}
+
+nav{
+background: cadetblue;
+    width: 320px;
+    height: 120px;
+    margin: 0 auto;
+    
+    
+}
+
+section:before, section:after{
+    
+    content: "";
+    display: table;
+    clear: both;
+    
+}
